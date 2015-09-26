@@ -1,0 +1,73 @@
+/*
+Theme Name: firstunderscores
+Layout: Content-Sidebar
+*/
+
+.site-main {
+        background: #b2b2b2;
+	/*margin: 0 25% 0 0;*/
+}
+.site-content .widget-area {
+/*	float: right;
+	overflow: hidden;
+	width: 25%;*/
+        width: 380px;
+        float: right;
+        padding: 4rem;
+        background: #fff;
+        background: hsl(0, 0%, 100%);
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+
+.entry-header,
+.entry-content,
+.entry-meta,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation{
+    position: relative;
+    max-width: 780px;
+    max-width: 78rem;
+    padding: 0 4rem;
+    margin: 0 auto;    
+}
+
+@media screen and (min-width: 780px){
+    .content-area {
+    /*	float: left;
+            margin: 0 -25% 0 0;
+            width: 100%;        */
+            position: relative;
+            width: 100%;
+            float: left;            
+            /*top: -26px;*/
+            margin-left: -380px;
+            padding-left: 380px;
+    }
+    
+    .entry-header,
+    .entry-content,
+    .entry-meta,
+    .entry-footer,
+    .tag-links,
+    .post-navigation,
+    .comments-area,
+    .paging-navigation{    
+        margin-right: 0;         
+    }
+}
+
+@media screen and (max-width: 779px)
+{
+    .site-content .widget-area {
+        width: auto;
+        float: none;
+        max-width: 780px;
+        margin: 1em auto 0;
+    }
+}
