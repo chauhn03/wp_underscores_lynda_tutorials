@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 29, 2015, 8:52:37 AM
+    Author     : chauhn
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+        ## Social Menu
+# Accessibility
+# Alignments
+# Clearings
+# Header
+        ## Header search
+# Widgets
+# Content
+    ## Posts and pages
+	## Asides
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+# Footer
+# WooCommerce
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+#primary_woocommerce.content-area
+{
+    background-color: black;
+    margin-left: 0;
+    padding-left: 0;   
+}

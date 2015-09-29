@@ -46,6 +46,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Captions
 	## Galleries
 # Footer
+# WooCommerce
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -1252,4 +1253,17 @@ object {
 
 .site-info{
     text-align: center;
+}
+
+/*--------------------------------------------------------------
+# WooCommerce
+--------------------------------------------------------------*/
+
+.woocommerce #sidebar{display:none}
+
+#primary_woocommerce.content-area
+{
+    background-color: black;
+    margin-left: 0;
+    padding-left: 0;   
 }

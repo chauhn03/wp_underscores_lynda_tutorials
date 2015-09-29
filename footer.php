@@ -12,12 +12,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-<<<<<<< HEAD
-            <?php get_sidebar("footer"); ?>
-            
-=======
             <?php get_sidebar("footer")?>
->>>>>>> develop
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'firstunderscores' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'firstunderscores' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
